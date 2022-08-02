@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/static/style.css" type="text/css">
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <div class="main">
+        <div class="register">
+            <h2>Login Here</h2>
+            <label>username: </label>
+            <br>
+            <input type="text" name="lname" id="name" placeholder="Enter Your Userame">
+            <br><br>
+            <label>Password : </label>
+            <br>
+            <input type="password" name="Password" id="name" placeholder="Enter Your Password">
+            <br><br>
+            <input type="submit" value="Submit" name="submit" id="submit">
+
+        
+        </div>
+        </div>
+</body>
+</html>
